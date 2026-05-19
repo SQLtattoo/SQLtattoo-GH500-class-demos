@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Database (runtime)
+*.db
+
+# CodeQL databases (large, local only)
+codeql-db/
+codeql-db-*/
+
+# SARIF results (generated)
+*.sarif
+
+# Course materials (local only, not tracked)
+/docs/
+
+# NOTE: credentials.yml and config.env are NOT in .gitignore
+# on purpose — they need to be committed for secret scanning demos.
+# In Demo 8.4 we show how to remove them from history.

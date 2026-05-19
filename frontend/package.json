@@ -1,0 +1,24 @@
+{
+  "name": "ghas-demo-frontend",
+  "version": "1.0.0",
+  "description": "GH-500 Demo Frontend — deliberately vulnerable",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint . --format @microsoft/eslint-formatter-sarif --output-file eslint-results.sarif",
+    "lint:text": "eslint ."
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.20",
+    "follow-redirects": "1.14.7",
+    "ejs": "3.1.10",
+    "minimist": "1.2.5",
+    "node-fetch": "2.6.1",
+    "shell-quote": "1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "@microsoft/eslint-formatter-sarif": "^3.0.0"
+  }
+}

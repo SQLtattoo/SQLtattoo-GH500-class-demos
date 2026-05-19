@@ -1,0 +1,12 @@
+# GH-500 Demo Backend Dependencies
+# INTENTIONALLY pinned to vulnerable versions for Dependabot demos
+
+Flask==2.2.0
+Werkzeug==2.2.2
+Jinja2==3.1.1
+requests==2.25.0
+urllib3==1.26.4
+cryptography==38.0.0
+PyYAML==5.3.1
+Pillow==9.0.0
+setuptools==65.0.0
