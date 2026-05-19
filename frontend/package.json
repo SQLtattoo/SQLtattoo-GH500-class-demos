@@ -13,7 +13,7 @@
     "lodash": "4.17.20",
     "follow-redirects": "1.14.7",
     "ejs": "3.1.10",
-    "minimist": "1.2.5",
+    "minimist": "1.2.8",
     "node-fetch": "2.6.1",
     "shell-quote": "1.7.2"
   },
