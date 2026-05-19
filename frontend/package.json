@@ -9,7 +9,7 @@
     "lint:text": "eslint ."
   },
   "dependencies": {
-    "express": "4.17.1",
+    "express": "5.2.1",
     "lodash": "4.17.20",
     "follow-redirects": "1.14.7",
     "ejs": "3.1.10",
