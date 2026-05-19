@@ -2,7 +2,7 @@
 
 A deliberately vulnerable multi-language application for demonstrating **GitHub Advanced Security** features in the GH-500 course.
 
-> **⚠️ WARNING:** This repository contains intentional security vulnerabilities and fake credentials for training purposes. **Do NOT deploy to production.**
+> **⚠️ WARNING:** This repository contains intentional security vulnerabilities and fake credentials for training purposes. **Do NOT deploy to production!**
 
 ## Repository Structure
 
