@@ -2,7 +2,7 @@
 # INTENTIONALLY pinned to vulnerable versions for Dependabot demos
 
 Flask==2.2.0
-Werkzeug==2.2.2
+Werkzeug==3.1.8
 Jinja2==3.1.1
 requests==2.25.0
 urllib3==1.26.4
