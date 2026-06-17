@@ -156,3 +156,9 @@ if __name__ == "__main__":
     init_db()
     # VULNERABILITY: Debug mode on, binding to all interfaces
     app.run(host="0.0.0.0", port=5000, debug=True)
+
+@app.route('/lookup')
+def lookup():
+    name = request.args.get('name', '')
+    cursor.execute(f"SELECT * FROM users WHERE name = '{name}'")
+    return str(cursor.fetchall())
